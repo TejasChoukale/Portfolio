@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Choukale - Web Developer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero" id="home">
+            <img src="../profile.jpg" alt="Tejas Choukale" class="profile-img">
+            <h1>Crafting Exceptional Web Experiences</h1>
+            <p>Full-Stack Developer | UI/UX Designer</p>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Tejas Choukale, a passionate web developer specializing in creating beautiful and functional
+                web applications. With a strong background in full-stack development and a keen eye for design, I strive
+                to deliver exceptional user experiences.</p>
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>Bachelor's in Computer Engineering</strong> - R. C. Patel Institute of Technology,
+                        Shirpur (Expected 2025)</li>
+                    <li><strong>Certifications:</strong> Cisco Networking Academy, Unstop</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Professional Experience</h3>
+                <ul>
+                    <li><strong>Full-Stack Web Developer Intern</strong> - Prodigy Tech (2024)
+                        <ul>
+                            <li>Developed a full-stack e-commerce application.</li>
+                            <li>Implemented a machine learning algorithm.</li>
+                            <li>Built a web scraping tool.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Projects:</strong> DBank, Keeper App, Tic-Tac-Toe Game</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3><a href="https://tejaschoukale.github.io/Keeper-App/" target="_blank">Keeper App</a></h3>
+                <img src="../keeper.png" alt="Keeper App Screenshot">
+                <p>A modern note-taking application built with React. Features include adding and deleting notes,
+                    dynamic rendering, and a clean UI.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/TejasChoukale/PRODIGY_WD_03" target="_blank">Tic-Tac-Toe Game</a></h3>
+                <img src="../Tic-Tac-Toe game.png" alt="Tic-Tac-Toe Game Screenshot">
+                <p>An interactive Tic-Tac-Toe game with options to play against another player or an AI opponent. Built
+                    using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/TejasChoukale/DBank" target="_blank">DBank</a></h3>
+                <img src="../dapp.png" alt="DBank Screenshot">
+                <p>A decentralized banking application with features for topping up, withdrawing, checking balance, and
+                    calculating compounding interest.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/TejasChoukale/Weather-App" target="_blank">Weather App</a></h3>
+                <img src="../weatherapp.png" alt="Weather App Screenshot">
+                <p>A weather application that provides current weather conditions based on user location. Built with
+                    HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/TejasChoukale/Blog-Site" target="_blank">Blog Site</a></h3>
+                <img src="../blog web app.png" alt="Blog Site Screenshot">
+                <p>A personal blog site with features for adding, editing, and deleting blog posts. Built with Node.js,
+                    Express, and MongoDB.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="https://formspree.io/f/mdkngvnr" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tejas Choukale. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tejaschoukale/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/TejasChoukale" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
